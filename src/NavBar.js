@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { Nav, Navbar as BootstrapNavbar } from 'react-bootstrap'
 const Navbar = () => {
   return (
-    <BootstrapNavbar bg='dark' expand='lg' className='navbar-dark'>
+    <BootstrapNavbar bg='dark' variant={'dark'} expand='lg' className='navbar-dark'>
       <BootstrapNavbar.Brand as={Link} to='/'>
         Bill Swartz Golf School
       </BootstrapNavbar.Brand>

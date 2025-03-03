@@ -34,7 +34,7 @@ const VideoUploadForm = () => {
   }
 
   return (
-    <Container className='mt-4'>
+    <Container className='mt-4 bg-dark text-white'>
       <h2 className='mb-4'>Golf Swing Video Upload</h2>
       <Form onSubmit={handleSubmit}>
         <p className='mb-3'>

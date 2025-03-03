@@ -9,9 +9,8 @@ import UploadSwing from './UploadSwing'
 function App() {
   return (
     <div
+      className="bg-dark text-white"
       style={{
-        backgroundColor: 'black',
-        color: 'white',
         minHeight: '100vh',
         height: '100vh',
       }}
