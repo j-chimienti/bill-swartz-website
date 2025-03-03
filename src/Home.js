@@ -7,9 +7,9 @@ function Home() {
 
   const handleButtonClick = () => {
     window.open(
-      `mailto:${supportEmail}?subject=Golf Lessons Inquiry`,
-      '_blank',
-      'width=600,height=400,noopener,noreferrer'
+        `mailto:${supportEmail}?subject=Golf Lessons Inquiry&body=Hi,%0D%0A%0D%0AI am interested in setting up golf lessons. Here are my details:%0D%0A%0D%0AName:%0D%0APhone Number:%0D%0APreferred Lesson Date and Time:%0D%0A%0D%0AThank you!`,
+        '_blank',
+        'width=600,height=400,noopener,noreferrer'
     )
   }
 
@@ -36,10 +36,6 @@ function Home() {
           <p className='mb-1'>© 2024 {websiteName}. All rights reserved.</p>
           <p className='mb-0'>
             Email us at: <a href={`mailto:${supportEmail}`}>{supportEmail}</a>
-          </p>
-          <p>
-            Follow us: <a href='#'>Facebook</a> | <a href='#'>Twitter</a> |{' '}
-            <a href='#'>Instagram</a>
           </p>
         </div>
       </div>
