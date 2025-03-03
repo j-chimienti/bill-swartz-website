@@ -1,7 +1,10 @@
+import {Container} from "react-bootstrap";
+
 function About() {
     return (
-        <div>coming soon
-        </div>
+        <Container>
+            coming soon
+        </Container>
     )
 }
 

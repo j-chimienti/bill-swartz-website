@@ -67,23 +67,26 @@ const VideoUploadForm = () => {
                     </Col>
                 </Row>
 
-                <Form.Group className="mb-3" controlId="formName">
-                    <Form.Label>Your Name</Form.Label>
+                <h3 className="mb-4">Tell Us About Your Golf Game</h3>
+                <Form.Group className="mb-3" controlId="formTendencies">
+                    <Form.Label>Tell Us About Your Game</Form.Label>
+                    <p>Please provide detailed information about your swing tendencies, common misses, and any specific
+                        feels or thoughts you have during your swing.</p>
                     <Form.Control
-                        type="text"
-                        name="name"
-                        placeholder="Enter your name"
-                        value={formData.name}
+                        as="textarea"
+                        name="tendencies"
+                        placeholder="For example: My tendencies are to hit off the toe and hook the ball. Divots point out to the right."
+                        value={formData.tendencies}
                         onChange={handleInputChange}
                     />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formSports">
-                    <Form.Label>Sports You Play</Form.Label>
+                    <Form.Label>Sports You Play or Played</Form.Label>
                     <Form.Control
                         type="text"
                         name="sports"
-                        placeholder="Enter sports you play"
+                        placeholder="basketball, soccer, etc."
                         value={formData.sports}
                         onChange={handleInputChange}
                     />
@@ -105,7 +108,7 @@ const VideoUploadForm = () => {
                 </Button>
             </Form>
         </Container>
-    );
+    )
 };
 
 export default VideoUploadForm;

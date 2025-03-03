@@ -1,9 +1,11 @@
+import {Container} from "react-bootstrap";
+
 function Testimonials() {
 
     return (
-        <div>
+        <Container>
             testimonials coming soon
-        </div>
+        </Container>
     )
 }
 
