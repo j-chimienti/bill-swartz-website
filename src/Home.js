@@ -7,7 +7,7 @@ function Home() {
     const websiteName = "Bill Swartz Golf School";
 
     const handleButtonClick = () => {
-        window.open(`mailto:${process.env.REACT_APP_SUPPORT_EMAIL}?subject=Golf Lessons Inquiry`, '_blank', 'width=600,height=400,noopener,noreferrer');
+        window.open(`mailto:${supportEmail}?subject=Golf Lessons Inquiry`, '_blank', 'width=600,height=400,noopener,noreferrer');
     };
 
 
